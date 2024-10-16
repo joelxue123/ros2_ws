@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000306] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000333] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.008069] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.008637] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.009272] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joel/ros2_ws/build/my_package', '--', '-j8', '-l8'], 'cwd': '/home/joel/ros2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_US:en'), ('USER', 'joel'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/joel/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '134486'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'joel'), ('JOURNAL_STREAM', '8:16409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major//bin:/opt/ros/humble/bin:/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/joel/anaconda3/bin:/home/joel/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/joel-Lenovo-XiaoXinAir-14IIL-2020:@/tmp/.ICE-unix/1770,unix/joel-Lenovo-XiaoXinAir-14IIL-2020:/tmp/.ICE-unix/1770'), ('INVOCATION_ID', 'c52cc99dee574200829099e2949f4f68'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8bb569443f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/joel/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joel/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/joel/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/joel/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.056296] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099491] (-) TimerEvent: {}
+[0.193630] (my_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199598] (-) TimerEvent: {}
+[0.233606] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.236580] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.243334] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.256296] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.271346] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299705] (-) TimerEvent: {}
+[0.307657] (my_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.310344] (my_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399797] (-) TimerEvent: {}
+[0.415899] (my_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.474030] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.476054] (my_package) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[0.478951] (my_package) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.499917] (-) TimerEvent: {}
+[0.570485] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.570793] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joel/ros2_ws/src/my_package/include>\n'}
+[0.570894] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.571374] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.572367] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.572487] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.572790] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.573572] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.587331] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.588830] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/joel/ros2_ws/build/my_package\n'}
+[0.600011] (-) TimerEvent: {}
+[0.610956] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher_node\x1b[0m\n'}
+[0.614775] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber_node\x1b[0m\n'}
+[0.624665] (my_package) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/math_functions.dir/src/math_functions.cpp.o\x1b[0m\n'}
+[0.625292] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.626641] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.643642] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/my_node.cpp.o\x1b[0m\n'}
+[0.643870] (my_package) StdoutLine: {'line': b'[ 50%] Built target subscriber_node\n'}
+[0.700161] (-) TimerEvent: {}
+[0.800486] (-) TimerEvent: {}
+[0.900803] (-) TimerEvent: {}
+[0.905048] (my_package) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX static library libmath_functions.a\x1b[0m\n'}
+[0.940876] (my_package) StdoutLine: {'line': b'[ 58%] Built target math_functions\n'}
+[1.000915] (-) TimerEvent: {}
+[1.101297] (-) TimerEvent: {}
+[1.201612] (-) TimerEvent: {}
+[1.301983] (-) TimerEvent: {}
+[1.402331] (-) TimerEvent: {}
+[1.502705] (-) TimerEvent: {}
+[1.603071] (-) TimerEvent: {}
+[1.617979] (my_package) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.650496] (my_package) StdoutLine: {'line': b'[ 66%] Built target gtest_main\n'}
+[1.703178] (-) TimerEvent: {}
+[1.803600] (-) TimerEvent: {}
+[1.903937] (-) TimerEvent: {}
+[2.004240] (-) TimerEvent: {}
+[2.104570] (-) TimerEvent: {}
+[2.204851] (-) TimerEvent: {}
+[2.305157] (-) TimerEvent: {}
+[2.405500] (-) TimerEvent: {}
+[2.505858] (-) TimerEvent: {}
+[2.606172] (-) TimerEvent: {}
+[2.706481] (-) TimerEvent: {}
+[2.806809] (-) TimerEvent: {}
+[2.907207] (-) TimerEvent: {}
+[3.007494] (-) TimerEvent: {}
+[3.107763] (-) TimerEvent: {}
+[3.208036] (-) TimerEvent: {}
+[3.308353] (-) TimerEvent: {}
+[3.408638] (-) TimerEvent: {}
+[3.508962] (-) TimerEvent: {}
+[3.609273] (-) TimerEvent: {}
+[3.709617] (-) TimerEvent: {}
+[3.809885] (-) TimerEvent: {}
+[3.910228] (-) TimerEvent: {}
+[3.956430] (my_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.004516] (my_package) StdoutLine: {'line': b'[ 75%] Built target gtest\n'}
+[4.010314] (-) TimerEvent: {}
+[4.022291] (my_package) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/test_math_functions.dir/test/test_math_functions.cpp.o\x1b[0m\n'}
+[4.110439] (-) TimerEvent: {}
+[4.210710] (-) TimerEvent: {}
+[4.310983] (-) TimerEvent: {}
+[4.411403] (-) TimerEvent: {}
+[4.511667] (-) TimerEvent: {}
+[4.611947] (-) TimerEvent: {}
+[4.712224] (-) TimerEvent: {}
+[4.812557] (-) TimerEvent: {}
+[4.912866] (-) TimerEvent: {}
+[4.965036] (my_package) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable test_math_functions\x1b[0m\n'}
+[5.012994] (-) TimerEvent: {}
+[5.096128] (my_package) StdoutLine: {'line': b'[ 91%] Built target test_math_functions\n'}
+[5.113126] (-) TimerEvent: {}
+[5.150363] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[5.213242] (-) TimerEvent: {}
+[5.313537] (-) TimerEvent: {}
+[5.347231] (my_package) StdoutLine: {'line': b'[100%] Built target publisher_node\n'}
+[5.356536] (my_package) CommandEnded: {'returncode': 0}
+[5.383930] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[5.391749] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joel/ros2_ws/build/my_package'], 'cwd': '/home/joel/ros2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_US:en'), ('USER', 'joel'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/joel/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '134486'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'joel'), ('JOURNAL_STREAM', '8:16409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major//bin:/opt/ros/humble/bin:/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/joel/anaconda3/bin:/home/joel/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/joel-Lenovo-XiaoXinAir-14IIL-2020:@/tmp/.ICE-unix/1770,unix/joel-Lenovo-XiaoXinAir-14IIL-2020:/tmp/.ICE-unix/1770'), ('INVOCATION_ID', 'c52cc99dee574200829099e2949f4f68'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8bb569443f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/joel/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joel/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/joel/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/joel/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.398689] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.398866] (my_package) StdoutLine: {'line': b'-- Installing: /home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node\n'}
+[5.399724] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node" to ""\n'}
+[5.400399] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/lib/my_package/subscriber_node\n'}
+[5.400513] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[5.400612] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[5.400695] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[5.400746] (my_package) StdoutLine: {'line': b'-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[5.400839] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[5.400903] (my_package) StdoutLine: {'line': b'-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[5.400987] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[5.401038] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[5.401103] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[5.401153] (my_package) StdoutLine: {'line': b'-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[5.401238] (my_package) StdoutLine: {'line': b'-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[5.401304] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[5.401351] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[5.401400] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[5.401455] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[5.402804] (my_package) CommandEnded: {'returncode': 0}
+[5.413608] (-) TimerEvent: {}
+[5.449199] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[5.449782] (-) EventReactorShutdown: {}

@@ -1,0 +1,151 @@
+Start testing: Oct 16 19:31 CST
+----------------------------------------------------------
+1/5 Testing: test_math_functions
+1/5 Test: test_math_functions
+Command: "/home/joel/anaconda3/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cmake_gtest/test_math_functions.txt" "--command" "/home/joel/ros2_ws/build/my_package/test_math_functions" "--gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml"
+Directory: /home/joel/ros2_ws/build/my_package
+"test_math_functions" start time: Oct 16 19:31 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/build/my_package':
+ - /home/joel/ros2_ws/build/my_package/test_math_functions --gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MathFunctionsTest
+[ RUN      ] MathFunctionsTest.DivisionTest
+/home/joel/ros2_ws/src/my_package/test/test_math_functions.cpp:5: Failure
+Expected equality of these values:
+  my_package::divide(10.0, 2.0)
+    Which is: 5
+  5.1
+    Which is: 5.0999999999999996
+[  FAILED  ] MathFunctionsTest.DivisionTest (0 ms)
+[ RUN      ] MathFunctionsTest.DivisionByZeroTest
+[       OK ] MathFunctionsTest.DivisionByZeroTest (0 ms)
+[----------] 2 tests from MathFunctionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MathFunctionsTest.DivisionTest
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Failed.
+"test_math_functions" end time: Oct 16 19:31 CST
+"test_math_functions" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: cppcheck
+2/5 Test: cppcheck
+Command: "/home/joel/anaconda3/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--include_dirs" "/home/joel/ros2_ws/src/my_package/include"
+Directory: /home/joel/ros2_ws/src/my_package
+"cppcheck" start time: Oct 16 19:31 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml --include_dirs /home/joel/ros2_ws/src/my_package/include
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Oct 16 19:31 CST
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: lint_cmake
+3/5 Test: lint_cmake
+Command: "/home/joel/anaconda3/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml"
+Directory: /home/joel/ros2_ws/src/my_package
+"lint_cmake" start time: Oct 16 19:31 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Oct 16 19:31 CST
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: uncrustify
+4/5 Test: uncrustify
+Command: "/home/joel/anaconda3/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml"
+Directory: /home/joel/ros2_ws/src/my_package
+"uncrustify" start time: Oct 16 19:31 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml
+No code style divergence in file 'include/my_package/math_functions.hpp'
+
+No code style divergence in file 'src/math_functions.cpp'
+
+No code style divergence in file 'src/my_node.cpp'
+
+No code style divergence in file 'src/subscriber_node.cpp'
+
+No code style divergence in file 'test/test_math_functions.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify" end time: Oct 16 19:31 CST
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: xmllint
+5/5 Test: xmllint
+Command: "/home/joel/anaconda3/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml"
+Directory: /home/joel/ros2_ws/src/my_package
+"xmllint" start time: Oct 16 19:31 CST
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml'
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Oct 16 19:31 CST
+"xmllint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 16 19:31 CST
+
+cppcheck =   0.18 sec*proc
+
+gtest =   0.08 sec*proc
+
+lint_cmake =   0.16 sec*proc
+
+linter =   1.04 sec*proc
+
+uncrustify =   0.15 sec*proc
+
+xmllint =   0.55 sec*proc
+

@@ -1,0 +1,17 @@
+/home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node
+/home/joel/ros2_ws/install/my_package/lib/my_package/subscriber_node
+/home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/joel/ros2_ws/install/my_package/share/my_package/environment/path.sh
+/home/joel/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+/home/joel/ros2_ws/install/my_package/share/my_package/local_setup.bash
+/home/joel/ros2_ws/install/my_package/share/my_package/local_setup.sh
+/home/joel/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+/home/joel/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+/home/joel/ros2_ws/install/my_package/share/my_package/package.dsv
+/home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/joel/ros2_ws/install/my_package/share/my_package/package.xml

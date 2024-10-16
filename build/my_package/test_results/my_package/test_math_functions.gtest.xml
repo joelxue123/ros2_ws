@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="1" disabled="0" errors="0" time="0" timestamp="2024-10-16T19:46:13" name="AllTests">
+  <testsuite name="MathFunctionsTest" tests="2" failures="1" disabled="0" errors="0" time="0" timestamp="2024-10-16T19:46:13">
+    <testcase name="DivisionTest" status="run" result="completed" time="0" timestamp="2024-10-16T19:46:13" classname="my_package.MathFunctionsTest">
+      <failure message="/home/joel/ros2_ws/src/my_package/test/test_math_functions.cpp:5&#x0A;Expected equality of these values:&#x0A;  my_package::divide(10.0, 2.0)&#x0A;    Which is: 5&#x0A;  5.1&#x0A;    Which is: 5.0999999999999996" type=""><![CDATA[/home/joel/ros2_ws/src/my_package/test/test_math_functions.cpp:5
+Expected equality of these values:
+  my_package::divide(10.0, 2.0)
+    Which is: 5
+  5.1
+    Which is: 5.0999999999999996]]></failure>
+    </testcase>
+    <testcase name="DivisionByZeroTest" status="run" result="completed" time="0" timestamp="2024-10-16T19:46:13" classname="my_package.MathFunctionsTest" />
+  </testsuite>
+</testsuites>

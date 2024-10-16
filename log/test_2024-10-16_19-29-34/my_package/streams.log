@@ -1,0 +1,109 @@
+[0.023s] Invoking command in '/home/joel/ros2_ws/build/my_package': AMENT_PREFIX_PATH=/home/joel/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joel/ros2_ws/install/my_package CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.028s] UpdateCTestConfiguration  from :/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.028s] Parse Config file:/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.028s]    Site: joel-Lenovo-XiaoXinAir-14IIL-2020
+[0.028s]    Build name: (empty)
+[0.028s]  Add coverage exclude regular expressions.
+[0.028s] Create new tag: 20241016-1129 - Experimental
+[0.029s] UpdateCTestConfiguration  from :/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.029s] Parse Config file:/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini
+[0.029s] Test project /home/joel/ros2_ws/build/my_package
+[0.029s] Constructing a list of tests
+[0.029s] Done constructing a list of tests
+[0.029s] Updating test list for fixtures
+[0.029s] Added 0 tests to meet fixture requirements
+[0.029s] Checking test dependency graph...
+[0.029s] Checking test dependency graph end
+[0.030s] test 1
+[0.030s]     Start 1: test_math_functions
+[0.030s] 
+[0.030s] 1: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cmake_gtest/test_math_functions.txt" "--command" "/home/joel/ros2_ws/build/my_package/test_math_functions" "--gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml"
+[0.030s] 1: Test timeout computed to be: 60
+[0.088s] 1: -- run_test.py: invoking following command in '/home/joel/ros2_ws/build/my_package':
+[0.089s] 1:  - /home/joel/ros2_ws/build/my_package/test_math_functions --gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml
+[0.090s] 1: [==========] Running 2 tests from 1 test suite.
+[0.090s] 1: [----------] Global test environment set-up.
+[0.090s] 1: [----------] 2 tests from MathFunctionsTest
+[0.090s] 1: [ RUN      ] MathFunctionsTest.DivisionTest
+[0.091s] 1: [       OK ] MathFunctionsTest.DivisionTest (0 ms)
+[0.091s] 1: [ RUN      ] MathFunctionsTest.DivisionByZeroTest
+[0.091s] 1: [       OK ] MathFunctionsTest.DivisionByZeroTest (0 ms)
+[0.091s] 1: [----------] 2 tests from MathFunctionsTest (0 ms total)
+[0.091s] 1: 
+[0.091s] 1: [----------] Global test environment tear-down
+[0.091s] 1: [==========] 2 tests from 1 test suite ran. (0 ms total)
+[0.091s] 1: [  PASSED  ] 2 tests.
+[0.091s] 1: -- run_test.py: return code 0
+[0.092s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'
+[0.092s] 1: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'
+[0.100s] 1/5 Test #1: test_math_functions ..............   Passed    0.07 sec
+[0.100s] test 2
+[0.100s]     Start 2: cppcheck
+[0.101s] 
+[0.101s] 2: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--include_dirs" "/home/joel/ros2_ws/src/my_package/include"
+[0.101s] 2: Test timeout computed to be: 300
+[0.160s] 2: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+[0.160s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml --include_dirs /home/joel/ros2_ws/src/my_package/include
+[0.236s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.247s] 2: -- run_test.py: return code 0
+[0.247s] 2: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml'
+[0.257s] 2/5 Test #2: cppcheck .........................   Passed    0.16 sec
+[0.257s] test 3
+[0.257s]     Start 3: lint_cmake
+[0.257s] 
+[0.258s] 3: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml"
+[0.258s] 3: Test timeout computed to be: 60
+[0.318s] 3: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+[0.319s] 3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml
+[0.379s] 3: 
+[0.379s] 3: No problems found
+[0.387s] 3: -- run_test.py: return code 0
+[0.387s] 3: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml'
+[0.395s] 3/5 Test #3: lint_cmake .......................   Passed    0.14 sec
+[0.395s] test 4
+[0.395s]     Start 4: uncrustify
+[0.395s] 
+[0.395s] 4: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml"
+[0.395s] 4: Test timeout computed to be: 60
+[0.454s] 4: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+[0.454s] 4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml
+[0.520s] 4: No code style divergence in file 'include/my_package/math_functions.hpp'
+[0.521s] 4: 
+[0.521s] 4: No code style divergence in file 'src/math_functions.cpp'
+[0.521s] 4: 
+[0.521s] 4: No code style divergence in file 'src/my_node.cpp'
+[0.521s] 4: 
+[0.521s] 4: No code style divergence in file 'src/subscriber_node.cpp'
+[0.521s] 4: 
+[0.521s] 4: No code style divergence in file 'test/test_math_functions.cpp'
+[0.521s] 4: 
+[0.521s] 4: No problems found
+[0.532s] 4: -- run_test.py: return code 0
+[0.532s] 4: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml'
+[0.543s] 4/5 Test #4: uncrustify .......................   Passed    0.15 sec
+[0.543s] test 5
+[0.543s]     Start 5: xmllint
+[0.543s] 
+[0.543s] 5: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml"
+[0.543s] 5: Test timeout computed to be: 60
+[0.602s] 5: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':
+[0.603s] 5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml
+[1.095s] 5: File 'package.xml' is valid
+[1.096s] 5: 
+[1.096s] 5: No problems found
+[1.115s] 5: -- run_test.py: return code 0
+[1.115s] 5: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml'
+[1.127s] 5/5 Test #5: xmllint ..........................   Passed    0.58 sec
+[1.127s] 
+[1.127s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 5
+[1.127s] 
+[1.127s] Label Time Summary:
+[1.127s] cppcheck      =   0.16 sec*proc (1 test)
+[1.127s] gtest         =   0.07 sec*proc (1 test)
+[1.127s] lint_cmake    =   0.14 sec*proc (1 test)
+[1.127s] linter        =   1.03 sec*proc (4 tests)
+[1.128s] uncrustify    =   0.15 sec*proc (1 test)
+[1.128s] xmllint       =   0.58 sec*proc (1 test)
+[1.128s] 
+[1.128s] Total Test time (real) =   1.10 sec
+[1.131s] Invoked command in '/home/joel/ros2_ws/build/my_package' returned '0': AMENT_PREFIX_PATH=/home/joel/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joel/ros2_ws/install/my_package CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

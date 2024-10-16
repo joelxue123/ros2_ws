@@ -1,0 +1,60 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joel/ros2_ws/src/my_package/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joel/ros2_ws/build/my_package
+[35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[  8%] [32mBuilding CXX object CMakeFiles/math_functions.dir/src/math_functions.cpp.o[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/my_node.cpp.o[0m
+[ 50%] Built target subscriber_node
+[ 58%] [32m[1mLinking CXX static library libmath_functions.a[0m
+[ 58%] Built target math_functions
+[ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 66%] Built target gtest_main
+[ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 75%] Built target gtest
+[ 83%] [32mBuilding CXX object CMakeFiles/test_math_functions.dir/test/test_math_functions.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_math_functions[0m
+[ 91%] Built target test_math_functions
+[100%] [32m[1mLinking CXX executable publisher_node[0m
+[100%] Built target publisher_node
+-- Install configuration: ""
+-- Installing: /home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node
+-- Set runtime path of "/home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node" to ""
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/lib/my_package/subscriber_node
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.sh
+-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.bash
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.sh
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+-- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/package.dsv
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/package.xml

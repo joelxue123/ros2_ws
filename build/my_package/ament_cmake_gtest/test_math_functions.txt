@@ -1,0 +1,30 @@
+-- run_test.py: invoking following command in '/home/joel/ros2_ws/build/my_package':
+ - /home/joel/ros2_ws/build/my_package/test_math_functions --gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml
+
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from MathFunctionsTest
+[ RUN      ] MathFunctionsTest.DivisionTest
+/home/joel/ros2_ws/src/my_package/test/test_math_functions.cpp:5: Failure
+Expected equality of these values:
+  my_package::divide(10.0, 2.0)
+    Which is: 5
+  5.1
+    Which is: 5.0999999999999996
+[  FAILED  ] MathFunctionsTest.DivisionTest (0 ms)
+[ RUN      ] MathFunctionsTest.DivisionByZeroTest
+[       OK ] MathFunctionsTest.DivisionByZeroTest (0 ms)
+[----------] 2 tests from MathFunctionsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] MathFunctionsTest.DivisionTest
+
+ 1 FAILED TEST
+
+
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'
+-- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'

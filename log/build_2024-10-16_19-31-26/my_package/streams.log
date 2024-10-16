@@ -1,0 +1,67 @@
+[0.012s] Invoking command in '/home/joel/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joel/ros2_ws/build/my_package -- -j8 -l8
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.184s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.186s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.193s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.201s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.238s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.240s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.336s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.396s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.396s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.492s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.493s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/joel/ros2_ws/src/my_package/include>
+[0.493s] -- Configured cppcheck exclude dirs and/or files: 
+[0.493s] -- Added test 'lint_cmake' to check CMake code style
+[0.494s] -- Added test 'uncrustify' to check C / C++ code style
+[0.494s] -- Configured uncrustify additional arguments: 
+[0.494s] -- Added test 'xmllint' to check XML markup files
+[0.495s] -- Configuring done
+[0.510s] -- Generating done
+[0.511s] -- Build files have been written to: /home/joel/ros2_ws/build/my_package
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target math_functions[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target publisher_node[0m
+[0.537s] [35m[1mConsolidate compiler generated dependencies of target subscriber_node[0m
+[0.537s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.550s] [  8%] [32mBuilding CXX object CMakeFiles/math_functions.dir/src/math_functions.cpp.o[0m
+[0.550s] [ 25%] Built target gtest
+[0.553s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_node.dir/src/my_node.cpp.o[0m
+[0.553s] [ 50%] Built target gtest_main
+[0.555s] [ 58%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[0.749s] [ 66%] [32m[1mLinking CXX static library libmath_functions.a[0m
+[0.779s] [ 66%] Built target math_functions
+[0.788s] [35m[1mConsolidate compiler generated dependencies of target test_math_functions[0m
+[0.800s] [ 75%] [32mBuilding CXX object CMakeFiles/test_math_functions.dir/test/test_math_functions.cpp.o[0m
+[1.837s] [ 83%] [32m[1mLinking CXX executable test_math_functions[0m
+[1.997s] [ 83%] Built target test_math_functions
+[5.088s] [ 91%] [32m[1mLinking CXX executable publisher_node[0m
+[5.277s] [ 91%] Built target publisher_node
+[8.670s] [100%] [32m[1mLinking CXX executable subscriber_node[0m
+[9.033s] [100%] Built target subscriber_node
+[9.045s] Invoked command in '/home/joel/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/joel/ros2_ws/build/my_package -- -j8 -l8
+[9.085s] Invoking command in '/home/joel/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joel/ros2_ws/build/my_package
+[9.092s] -- Install configuration: ""
+[9.092s] -- Installing: /home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node
+[9.093s] -- Set runtime path of "/home/joel/ros2_ws/install/my_package/lib/my_package/publisher_node" to ""
+[9.093s] -- Installing: /home/joel/ros2_ws/install/my_package/lib/my_package/subscriber_node
+[9.096s] -- Set runtime path of "/home/joel/ros2_ws/install/my_package/lib/my_package/subscriber_node" to ""
+[9.096s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[9.096s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[9.096s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[9.096s] -- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[9.096s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[9.096s] -- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[9.096s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[9.097s] -- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[9.097s] -- Installing: /home/joel/ros2_ws/install/my_package/share/my_package/package.dsv
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[9.097s] -- Up-to-date: /home/joel/ros2_ws/install/my_package/share/my_package/package.xml
+[9.099s] Invoked command in '/home/joel/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/joel/ros2_ws/build/my_package

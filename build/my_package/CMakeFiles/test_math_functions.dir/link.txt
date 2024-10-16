@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/test_math_functions.dir/test/test_math_functions.cpp.o -o test_math_functions  gtest/libgtest_main.a gtest/libgtest.a libmath_functions.a -pthread 

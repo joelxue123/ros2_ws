@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict([('my_package', '/home/joel/ros2_ws/install/my_package')])}
+[0.000838] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.020299] (my_package) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/joel/ros2_ws/build/my_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('LANGUAGE', 'en_US:en'), ('USER', 'joel'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('STM32CubeMX_PATH', '/home/joel/STM32CubeMX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/joel'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/joel/ros2_ws/build'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1797'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '134486'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'joel'), ('JOURNAL_STREAM', '8:16409'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major//bin:/opt/ros/humble/bin:/home/joel/STM32CubeMX:/home/joel/.local/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/joel/anaconda3/bin:/home/joel/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/joel-Lenovo-XiaoXinAir-14IIL-2020:@/tmp/.ICE-unix/1770,unix/joel-Lenovo-XiaoXinAir-14IIL-2020:/tmp/.ICE-unix/1770'), ('INVOCATION_ID', 'c52cc99dee574200829099e2949f4f68'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8bb569443f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joel/ros2_ws/install/my_package:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/joel/anaconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joel/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/joel/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/joel/anaconda3'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/joel/ros2_ws/install/my_package')]), 'shell': False}
+[0.027252] (my_package) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini\n'}
+[0.027434] (my_package) StdoutLine: {'line': b'Parse Config file:/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini\n'}
+[0.027519] (my_package) StdoutLine: {'line': b'   Site: joel-Lenovo-XiaoXinAir-14IIL-2020\n'}
+[0.027614] (my_package) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.027788] (my_package) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.027882] (my_package) StdoutLine: {'line': b'Create new tag: 20241016-1122 - Experimental\n'}
+[0.027979] (my_package) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini\n'}
+[0.028175] (my_package) StdoutLine: {'line': b'Parse Config file:/home/joel/ros2_ws/build/my_package/CTestConfiguration.ini\n'}
+[0.028367] (my_package) StdoutLine: {'line': b'Test project /home/joel/ros2_ws/build/my_package\n'}
+[0.028475] (my_package) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.028581] (my_package) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.028692] (my_package) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.028783] (my_package) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.028874] (my_package) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.028995] (my_package) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.029151] (my_package) StdoutLine: {'line': b'test 1\n'}
+[0.029248] (my_package) StdoutLine: {'line': b'    Start 1: test_math_functions\n'}
+[0.029306] (my_package) StdoutLine: {'line': b'\n'}
+[0.029382] (my_package) StdoutLine: {'line': b'1: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cmake_gtest/test_math_functions.txt" "--command" "/home/joel/ros2_ws/build/my_package/test_math_functions" "--gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml"\n'}
+[0.029614] (my_package) StdoutLine: {'line': b'1: Test timeout computed to be: 60\n'}
+[0.087327] (my_package) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/joel/ros2_ws/build/my_package':\n"}
+[0.087506] (my_package) StdoutLine: {'line': b'1:  - /home/joel/ros2_ws/build/my_package/test_math_functions --gtest_output=xml:/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml\n'}
+[0.089071] (my_package) StdoutLine: {'line': b'1: [==========] Running 2 tests from 1 test suite.\n'}
+[0.089199] (my_package) StdoutLine: {'line': b'1: [----------] Global test environment set-up.\n'}
+[0.089283] (my_package) StdoutLine: {'line': b'1: [----------] 2 tests from MathFunctionsTest\n'}
+[0.089350] (my_package) StdoutLine: {'line': b'1: [ RUN      ] MathFunctionsTest.DivisionTest\n'}
+[0.089414] (my_package) StdoutLine: {'line': b'1: [       OK ] MathFunctionsTest.DivisionTest (0 ms)\n'}
+[0.089521] (my_package) StdoutLine: {'line': b'1: [ RUN      ] MathFunctionsTest.DivisionByZeroTest\n'}
+[0.089595] (my_package) StdoutLine: {'line': b'1: [       OK ] MathFunctionsTest.DivisionByZeroTest (0 ms)\n'}
+[0.089663] (my_package) StdoutLine: {'line': b'1: [----------] 2 tests from MathFunctionsTest (0 ms total)\n'}
+[0.089725] (my_package) StdoutLine: {'line': b'1: \n'}
+[0.089797] (my_package) StdoutLine: {'line': b'1: [----------] Global test environment tear-down\n'}
+[0.089859] (my_package) StdoutLine: {'line': b'1: [==========] 2 tests from 1 test suite ran. (0 ms total)\n'}
+[0.089921] (my_package) StdoutLine: {'line': b'1: [  PASSED  ] 2 tests.\n'}
+[0.089989] (my_package) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.090095] (my_package) StdoutLine: {'line': b"1: -- run_test.py: inject classname prefix into gtest result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'\n"}
+[0.090175] (my_package) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/test_math_functions.gtest.xml'\n"}
+[0.098058] (my_package) StdoutLine: {'line': b'1/5 Test #1: test_math_functions ..............   Passed    0.07 sec\n'}
+[0.098350] (my_package) StdoutLine: {'line': b'test 2\n'}
+[0.098618] (my_package) StdoutLine: {'line': b'    Start 2: cppcheck\n'}
+[0.098751] (my_package) StdoutLine: {'line': b'\n'}
+[0.098876] (my_package) StdoutLine: {'line': b'2: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml" "--include_dirs" "/home/joel/ros2_ws/src/my_package/include"\n'}
+[0.098980] (my_package) StdoutLine: {'line': b'2: Test timeout computed to be: 300\n'}
+[0.099618] (-) TimerEvent: {}
+[0.155565] (my_package) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':\n"}
+[0.155743] (my_package) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml --include_dirs /home/joel/ros2_ws/src/my_package/include\n'}
+[0.199760] (-) TimerEvent: {}
+[0.226882] (my_package) StdoutLine: {'line': b'2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.240708] (my_package) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.240871] (my_package) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/cppcheck.xunit.xml'\n"}
+[0.251190] (my_package) StdoutLine: {'line': b'2/5 Test #2: cppcheck .........................   Passed    0.15 sec\n'}
+[0.251549] (my_package) StdoutLine: {'line': b'test 3\n'}
+[0.251724] (my_package) StdoutLine: {'line': b'    Start 3: lint_cmake\n'}
+[0.251803] (my_package) StdoutLine: {'line': b'\n'}
+[0.251867] (my_package) StdoutLine: {'line': b'3: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml"\n'}
+[0.251949] (my_package) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.299847] (-) TimerEvent: {}
+[0.309614] (my_package) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':\n"}
+[0.309870] (my_package) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml\n'}
+[0.371169] (my_package) StdoutLine: {'line': b'3: \n'}
+[0.371322] (my_package) StdoutLine: {'line': b'3: No problems found\n'}
+[0.379685] (my_package) StdoutLine: {'line': b'3: -- run_test.py: return code 0\n'}
+[0.379931] (my_package) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/lint_cmake.xunit.xml'\n"}
+[0.388299] (my_package) StdoutLine: {'line': b'3/5 Test #3: lint_cmake .......................   Passed    0.14 sec\n'}
+[0.388484] (my_package) StdoutLine: {'line': b'test 4\n'}
+[0.388550] (my_package) StdoutLine: {'line': b'    Start 4: uncrustify\n'}
+[0.388625] (my_package) StdoutLine: {'line': b'\n'}
+[0.388687] (my_package) StdoutLine: {'line': b'4: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml"\n'}
+[0.388752] (my_package) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.399973] (-) TimerEvent: {}
+[0.447308] (my_package) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':\n"}
+[0.447510] (my_package) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml\n'}
+[0.500080] (-) TimerEvent: {}
+[0.519669] (my_package) StdoutLine: {'line': b"4: Code style divergence in file 'include/my_package/math_functions.hpp':\n"}
+[0.520063] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.520169] (my_package) StdoutLine: {'line': b'4: --- include/my_package/math_functions.hpp\n'}
+[0.520269] (my_package) StdoutLine: {'line': b'4: +++ include/my_package/math_functions.hpp.uncrustify\n'}
+[0.520359] (my_package) StdoutLine: {'line': b'4: @@ -4 +4,2 @@\n'}
+[0.520442] (my_package) StdoutLine: {'line': b'4: -namespace my_package {\n'}
+[0.520525] (my_package) StdoutLine: {'line': b'4: +namespace my_package\n'}
+[0.520654] (my_package) StdoutLine: {'line': b'4: +{\n'}
+[0.520768] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.520849] (my_package) StdoutLine: {'line': b"4: Code style divergence in file 'src/math_functions.cpp':\n"}
+[0.520933] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.521015] (my_package) StdoutLine: {'line': b'4: --- src/math_functions.cpp\n'}
+[0.521095] (my_package) StdoutLine: {'line': b'4: +++ src/math_functions.cpp.uncrustify\n'}
+[0.521176] (my_package) StdoutLine: {'line': b'4: @@ -4 +4,2 @@\n'}
+[0.521260] (my_package) StdoutLine: {'line': b'4: -namespace my_package {\n'}
+[0.521342] (my_package) StdoutLine: {'line': b'4: +namespace my_package\n'}
+[0.521421] (my_package) StdoutLine: {'line': b'4: +{\n'}
+[0.521514] (my_package) StdoutLine: {'line': b'4: @@ -6,5 +7,6 @@\n'}
+[0.521649] (my_package) StdoutLine: {'line': b'4: -double divide(double numerator, double denominator) {\n'}
+[0.521762] (my_package) StdoutLine: {'line': b'4: -    if (denominator == 0.0) {\n'}
+[0.521866] (my_package) StdoutLine: {'line': b'4: -        throw std::runtime_error("Division by zero is not allowed");\n'}
+[0.521995] (my_package) StdoutLine: {'line': b'4: -    }\n'}
+[0.522076] (my_package) StdoutLine: {'line': b'4: -    return numerator / denominator;\n'}
+[0.522169] (my_package) StdoutLine: {'line': b'4: +double divide(double numerator, double denominator)\n'}
+[0.522257] (my_package) StdoutLine: {'line': b'4: +{\n'}
+[0.522349] (my_package) StdoutLine: {'line': b'4: +  if (denominator == 0.0) {\n'}
+[0.522433] (my_package) StdoutLine: {'line': b'4: +    throw std::runtime_error("Division by zero is not allowed");\n'}
+[0.522517] (my_package) StdoutLine: {'line': b'4: +  }\n'}
+[0.522621] (my_package) StdoutLine: {'line': b'4: +  return numerator / denominator;\n'}
+[0.522712] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.522793] (my_package) StdoutLine: {'line': b"4: Code style divergence in file 'src/my_node.cpp':\n"}
+[0.522880] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.522964] (my_package) StdoutLine: {'line': b'4: --- src/my_node.cpp\n'}
+[0.523052] (my_package) StdoutLine: {'line': b'4: +++ src/my_node.cpp.uncrustify\n'}
+[0.523140] (my_package) StdoutLine: {'line': b'4: @@ -7 +7,2 @@\n'}
+[0.523228] (my_package) StdoutLine: {'line': b'4: -  PublisherNode() : Node("publisher_node")\n'}
+[0.523315] (my_package) StdoutLine: {'line': b'4: +  PublisherNode()\n'}
+[0.523403] (my_package) StdoutLine: {'line': b'4: +  : Node("publisher_node")\n'}
+[0.523487] (my_package) StdoutLine: {'line': b'4: @@ -35 +35,0 @@\n'}
+[0.523589] (my_package) StdoutLine: {'line': b'4: -\n'}
+[0.523698] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.523793] (my_package) StdoutLine: {'line': b"4: Code style divergence in file 'src/subscriber_node.cpp':\n"}
+[0.523879] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.523968] (my_package) StdoutLine: {'line': b'4: --- src/subscriber_node.cpp\n'}
+[0.524051] (my_package) StdoutLine: {'line': b'4: +++ src/subscriber_node.cpp.uncrustify\n'}
+[0.524132] (my_package) StdoutLine: {'line': b'4: @@ -7 +7,2 @@\n'}
+[0.524223] (my_package) StdoutLine: {'line': b'4: -  SubscriberNode() : Node("subscriber_node")\n'}
+[0.524305] (my_package) StdoutLine: {'line': b'4: +  SubscriberNode()\n'}
+[0.524392] (my_package) StdoutLine: {'line': b'4: +  : Node("subscriber_node")\n'}
+[0.524474] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.524554] (my_package) StdoutLine: {'line': b"4: Code style divergence in file 'test/test_math_functions.cpp':\n"}
+[0.524757] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.524856] (my_package) StdoutLine: {'line': b'4: --- test/test_math_functions.cpp\n'}
+[0.524960] (my_package) StdoutLine: {'line': b'4: +++ test/test_math_functions.cpp.uncrustify\n'}
+[0.525073] (my_package) StdoutLine: {'line': b'4: @@ -5,4 +5,4 @@\n'}
+[0.525167] (my_package) StdoutLine: {'line': b'4: -    EXPECT_DOUBLE_EQ(my_package::divide(10.0, 2.0), 5.0);\n'}
+[0.525259] (my_package) StdoutLine: {'line': b'4: -    EXPECT_DOUBLE_EQ(my_package::divide(-10.0, 2.0), -5.0);\n'}
+[0.525349] (my_package) StdoutLine: {'line': b'4: -    EXPECT_DOUBLE_EQ(my_package::divide(10.0, -2.0), -5.0);\n'}
+[0.525437] (my_package) StdoutLine: {'line': b'4: -    EXPECT_DOUBLE_EQ(my_package::divide(0.0, 5.0), 0.0);\n'}
+[0.525524] (my_package) StdoutLine: {'line': b'4: +  EXPECT_DOUBLE_EQ(my_package::divide(10.0, 2.0), 5.0);\n'}
+[0.525624] (my_package) StdoutLine: {'line': b'4: +  EXPECT_DOUBLE_EQ(my_package::divide(-10.0, 2.0), -5.0);\n'}
+[0.525730] (my_package) StdoutLine: {'line': b'4: +  EXPECT_DOUBLE_EQ(my_package::divide(10.0, -2.0), -5.0);\n'}
+[0.525839] (my_package) StdoutLine: {'line': b'4: +  EXPECT_DOUBLE_EQ(my_package::divide(0.0, 5.0), 0.0);\n'}
+[0.525942] (my_package) StdoutLine: {'line': b'4: @@ -12 +12 @@\n'}
+[0.526039] (my_package) StdoutLine: {'line': b'4: -    EXPECT_THROW(my_package::divide(10.0, 0.0), std::runtime_error);\n'}
+[0.526162] (my_package) StdoutLine: {'line': b'4: +  EXPECT_THROW(my_package::divide(10.0, 0.0), std::runtime_error);\n'}
+[0.526253] (my_package) StdoutLine: {'line': b'4: @@ -15,3 +15,4 @@\n'}
+[0.526351] (my_package) StdoutLine: {'line': b'4: -int main(int argc, char** argv) {\n'}
+[0.526448] (my_package) StdoutLine: {'line': b'4: -    testing::InitGoogleTest(&argc, argv);\n'}
+[0.526546] (my_package) StdoutLine: {'line': b'4: -    return RUN_ALL_TESTS();\n'}
+[0.526672] (my_package) StdoutLine: {'line': b'4: +int main(int argc, char ** argv)\n'}
+[0.526770] (my_package) StdoutLine: {'line': b'4: +{\n'}
+[0.526848] (my_package) StdoutLine: {'line': b'4: +  testing::InitGoogleTest(&argc, argv);\n'}
+[0.526927] (my_package) StdoutLine: {'line': b'4: +  return RUN_ALL_TESTS();\n'}
+[0.526998] (my_package) StdoutLine: {'line': b'4: \n'}
+[0.527083] (my_package) StdoutLine: {'line': b'4: 5 files with code style divergence\n'}
+[0.531857] (my_package) StdoutLine: {'line': b'4: -- run_test.py: return code 1\n'}
+[0.532209] (my_package) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/uncrustify.xunit.xml'\n"}
+[0.542693] (my_package) StdoutLine: {'line': b'4/5 Test #4: uncrustify .......................***Failed    0.15 sec\n'}
+[0.542945] (my_package) StdoutLine: {'line': b'test 5\n'}
+[0.543100] (my_package) StdoutLine: {'line': b'    Start 5: xmllint\n'}
+[0.543220] (my_package) StdoutLine: {'line': b'\n'}
+[0.543319] (my_package) StdoutLine: {'line': b'5: Test command: /home/joel/anaconda3/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml" "--package-name" "my_package" "--output-file" "/home/joel/ros2_ws/build/my_package/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml"\n'}
+[0.543410] (my_package) StdoutLine: {'line': b'5: Test timeout computed to be: 60\n'}
+[0.600193] (-) TimerEvent: {}
+[0.603646] (my_package) StdoutLine: {'line': b"5: -- run_test.py: invoking following command in '/home/joel/ros2_ws/src/my_package':\n"}
+[0.603824] (my_package) StdoutLine: {'line': b'5:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml\n'}
+[0.700442] (-) TimerEvent: {}
+[0.801134] (-) TimerEvent: {}
+[0.901681] (-) TimerEvent: {}
+[1.002212] (-) TimerEvent: {}
+[1.102730] (-) TimerEvent: {}
+[1.127594] (my_package) StdoutLine: {'line': b"5: File 'package.xml' is valid\n"}
+[1.127971] (my_package) StdoutLine: {'line': b'5: \n'}
+[1.128319] (my_package) StdoutLine: {'line': b'5: No problems found\n'}
+[1.147760] (my_package) StdoutLine: {'line': b'5: -- run_test.py: return code 0\n'}
+[1.148054] (my_package) StdoutLine: {'line': b"5: -- run_test.py: verify result file '/home/joel/ros2_ws/build/my_package/test_results/my_package/xmllint.xunit.xml'\n"}
+[1.157857] (my_package) StdoutLine: {'line': b'5/5 Test #5: xmllint ..........................   Passed    0.61 sec\n'}
+[1.158093] (my_package) StdoutLine: {'line': b'\n'}
+[1.158189] (my_package) StdoutLine: {'line': b'80% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 5\n'}
+[1.158256] (my_package) StdoutLine: {'line': b'\n'}
+[1.158317] (my_package) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.158375] (my_package) StdoutLine: {'line': b'cppcheck      =   0.15 sec*proc (1 test)\n'}
+[1.158433] (my_package) StdoutLine: {'line': b'gtest         =   0.07 sec*proc (1 test)\n'}
+[1.158492] (my_package) StdoutLine: {'line': b'lint_cmake    =   0.14 sec*proc (1 test)\n'}
+[1.158552] (my_package) StdoutLine: {'line': b'linter        =   1.06 sec*proc (4 tests)\n'}
+[1.158645] (my_package) StdoutLine: {'line': b'uncrustify    =   0.15 sec*proc (1 test)\n'}
+[1.158704] (my_package) StdoutLine: {'line': b'xmllint       =   0.61 sec*proc (1 test)\n'}
+[1.158784] (my_package) StdoutLine: {'line': b'\n'}
+[1.158842] (my_package) StdoutLine: {'line': b'Total Test time (real) =   1.13 sec\n'}
+[1.158899] (my_package) StdoutLine: {'line': b'\n'}
+[1.158966] (my_package) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.159068] (my_package) StdoutLine: {'line': b'\t\x1b[0;31m  4 - uncrustify (Failed)\x1b[0;0m\n'}
+[1.159896] (my_package) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.160100] (my_package) StderrLine: {'line': b'Output from these tests are in: /home/joel/ros2_ws/build/my_package/Testing/Temporary/LastTest.log\n'}
+[1.160210] (my_package) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.162787] (my_package) CommandEnded: {'returncode': 8}
+[1.163357] (my_package) TestFailure: {'identifier': 'my_package'}
+[1.163422] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.164873] (-) EventReactorShutdown: {}
